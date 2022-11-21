@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 
-
+st.sidebar.title('대구 관광지')
 menu = st.sidebar.radio('메뉴', options=['테마파크', '자연명소', '피크닉'])
 
 if menu == '테마파크':
